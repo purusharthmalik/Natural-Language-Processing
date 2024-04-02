@@ -1,7 +1,7 @@
 from transformers import pipeline, Conversation
 
 # For the conversation, we will be using Gemma-2B
-chatbot = pipeline("conversational", model="google/gemma-2b-it", token="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")
+chatbot = pipeline("conversational", model="google/gemma-2b-it")
 
 # Initializing the conversation
 initial_input = input("[USER] ")
